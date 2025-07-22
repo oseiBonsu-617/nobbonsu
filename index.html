@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Nana Osei-Bonsu, Vision Scientist and Backend Developer">
+  <meta name="keywords" content="vision scientist, backend developer, optometry, Python, Flask, machine learning">
+  <title>Nana Osei-Bonsu | Vision + Tech</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nana Osei-Bonsu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="assets/Nana_Osei-Bonsu_CV.pdf" target="_blank">CV</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+        <h1>Nana Osei-Bonsu</h1>
+        <p class="lead">Vision Scientist | Backend Developer | Optometrist</p>
+        <p class="subtitle">Building tech that sees and serves</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline-light">Get in Touch</a>
+        </div>
+      </div>
+      <div class="scroll-down" data-aos="fade-up" data-aos-delay="500">
+        <a href="#about"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <h2 class="section-title">About Me</h2>
+          <p class="lead">Optometrist & Researcher</p>
+          <p>I'm passionate about applying machine learning and psychophysics to improve visual health. Currently deepening my skills in backend software engineering while co-authoring vision science research on glaucoma detection and assistive tech for low vision students.</p>
+          <div class="social-links">
+            <a href="https://linkedin.com/in/nana-osei-bonsu-a57189170" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/oseiBonsu-617" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:nanaoseibonsu617@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="about-image">
+            <div class="image-border"></div>
+            <img src="images/nob_profile.jpg" alt="Nana Osei-Bonsu" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+      <div class="col-lg-8 mx-auto text-center">
+        <h3 class="mb-4">My Vision in 60 Seconds</h3>
+        <div class="video-container ratio ratio-16x9" data-aos="zoom-in">
+          <iframe 
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+            title="Nana Osei-Bonsu's Professional Vision"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="mt-3 text-muted">
+          <small>Watch how I bridge optometry and technology</small>
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">My Projects</h2>
+      <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="100">Some of my recent work</p>
+      
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card project-card h-100">
+            <div class="card-img-top">
+              <img src="images/optosol.jpg" alt="Optosol iDigital" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h3>Optosol iDigital</h3>
+              <p>Python-based CCTV for low vision learners using OCR and TTS</p>
+              <div class="tech-tags">
+                <span class="badge">Python</span>
+                <span class="badge">OCR</span>
+                <span class="badge">TTS</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/nobbonsu/optosol-idigital" target="_blank" class="btn btn-sm btn-outline-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card project-card h-100">
+            <div class="card-img-top">
+              <img src="images/clinical_api.png" alt="Clinical Records API" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h3>Clinical Records API</h3>
+              <p>RESTful backend with Flask & PostgreSQL for optometry data</p>
+              <div class="tech-tags">
+                <span class="badge">Flask</span>
+                <span class="badge">PostgreSQL</span>
+                <span class="badge">REST API</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/nobbonsu/clinical-api" target="_blank" class="btn btn-sm btn-outline-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="card project-card h-100">
+            <div class="card-img-top">
+              <img src="images/screening.png" alt="Vision Screening Visualizer" class="img-fluid">
+            </div>
+            <div class="card-body">
+              <h3>Vision Screening Visualizer</h3>
+              <p>Tool for plotting OCT and visual field test results in Python</p>
+              <div class="tech-tags">
+                <span class="badge">Python</span>
+                <span class="badge">Matplotlib</span>
+                <span class="badge">Data Viz</span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="https://github.com/nobbonsu/vision-visualizer" target="_blank" class="btn btn-sm btn-outline-primary">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inside the projects section, after the closing </div> of the row -->
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="projects.html" class="btn btn-primary">
+      View All Projects <i class="fas fa-arrow-right ms-2"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">My Skills</h2>
+      <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="100">Technologies I work with</p>
+      
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Python</span>
+              <span>90%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Django</span>
+              <span>85%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>PostgreSQL</span>
+              <span>80%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>R</span>
+              <span>75%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>PsychoPy</span>
+              <span>85%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>OCT Imaging</span>
+              <span>100%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skill-cloud text-center mt-5" data-aos="zoom-in">
+        <span class="badge">Flask</span>
+        <span class="badge">REST APIs</span>
+        <span class="badge">SPSS</span>
+        <span class="badge">Git</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">HTML/CSS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="testimonial-section bg-light">
+    <div class="container">
+      <div class="testimonial-card" data-aos="zoom-in">
+        <div class="quote-icon">
+          <i class="fas fa-quote-left"></i>
+        </div>
+        <blockquote>
+          "Nana is a rare blend of clinical acumen and technical innovation. His dedication to vision science and his ability to translate research into tools is truly impressive."
+        </blockquote>
+        <div class="author">
+          <p>— Dr. Carl Halladay Abraham, Supervisor</p>
+          <p>School of Optometry & Vision Science, UCC</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title text-center" data-aos="fade-up">Get In Touch</h2>
+      <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="100">I'd love to hear from you</p>
+      
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:nanaoseibonsu617@gmail.com">nobbonsu440@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fas fa-file-alt"></i>
+              <div>
+                <h4>CV</h4>
+                <a href="assets/Nana_Osei-Bonsu_CV.pdf" target="_blank">Download my CV</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Ghana</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links mt-4">
+            <a href="https://linkedin.com/in/nana-osei-bonsu-a57189170" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/oseiBonsu-617" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:nobbonsu440@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-6" data-aos="fade-left">
+          <form class="contact-form" action="https://formsubmit.co/nanaoseibonsu617@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New contact from portfolio">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#">Nana Osei-Bonsu</a>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/nana-osei-bonsu-a57189170" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/oseiBonsu-617" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:nobbonsu440@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Nana Osei-Bonsu. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" data-aos="fade-up"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+  
+  <!-- Initialize AOS -->
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+    
+    // Update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
