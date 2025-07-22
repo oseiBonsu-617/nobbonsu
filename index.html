@@ -18,6 +18,8 @@
   
   <!-- AOS Animation -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Preload for faster rendering -->
+<link rel="preload" href="images/optometry_fusion.png" as="image">
   
   <!-- Custom CSS -->
   <link href="css/styles.css" rel="stylesheet">
@@ -42,7 +44,9 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="hero">
+  <header class="hero"
+  style="background: linear-gradient(rgba(0,0,0,0.7)), 
+                url('images/optometry_fusion.png') center/cover;">
     <div class="container">
       <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
         <h1>Nana Osei-Bonsu</h1>
@@ -76,7 +80,7 @@
         <div class="col-lg-6" data-aos="fade-left">
           <div class="about-image">
             <div class="image-border"></div>
-            <img src="images/nob_profile.jpg" alt="Nana Osei-Bonsu" class="img-fluid">
+            <img src="images/profile.png" alt="Nana Osei-Bonsu" class="img-fluid">
           </div>
         </div>
       </div>
